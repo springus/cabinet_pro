@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <script src="./js/main.js"></script>
+    <!-- <script src="./js/sub.js"></script> -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400;700&family=Raleway:wght@100;400;700&display=swap"
+        rel="stylesheet">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js'></script>
+    <title>FrontEnd Developer</title>
+
+</head>
+
+<body>
+    <ul id="skipmenu_inner">
+        <li><a href="#" class="hidden">자기소개바로가기</a></li>
+        <li><a href="#" class="hidden">프로젝트바로가기</a></li>
+    </ul>
+
+    <div id="header_wrap">
+        <header>
+            <h1 id="logo"><a href="#">신윤성의 포트폴리오</a></h1>
+            <nav id="gnb_wrap">
+                <h2 class="hidden">Menu</h2>
+                <ul id="gnb_inner">
+                    <li><a href="#intro_wrap">MAIN</a></li>
+                    <li><a href="#about_wrap">ABOUT</a></li>
+                    <li><a href="#project_wrap">PROJECTS</a></li>
+                    <li><a href="#footer_wrap">END</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <div id="container_wrap">
+        <section id="intro_wrap">
+            <h2 class="hidden">Intro</h2>
+            <div id="intro_inner">
+                <p id="intro_title">환영합니다.</p>
+                <p id="intro_text">주니어 프론트엔드 개발자 신윤성의 포트폴리오입니다.</p>
+                <ul id="intro_start">
+                    <li>START</li>
+                    <li>START</li>
+                </ul>
+            </div>
+        </section>
+        <section id="directional_wrap">
+            <h2 class="hidden">Directional</h2>
+            <ul id="directional_inner">
+                <li>
+                    <p class="directional_title">Accessibility</p>
+                    <!-- <p class="directional_text">웹 사이트를 이용하기 어려운 사용자들에게도 사이트를 이용할 수 있도록 웹 접근성을 추구하겠습니다.</p> -->
+                </li>
+                <li>
+                    <p class="directional_title">UI / UX</p>
+                    <!-- <p class="directional_text">사용자의 경험을 바탕으로 보다 편리하고 빠르게 이용할 수 있도록 UI / UX를 항상 신경쓰겠습니다.</p> -->
+                </li>
+                <li>
+                    <p class="directional_title">Readability</p>
+                    <!-- <p class="directional_text">코드 작성 시, 코드 가독성을 향상 시키며, 코드를 유지 및 보수하기 쉽도록 시멘틱 마크업을 지키겠습니다. </p> -->
+                </li>
+                <li>
+                    <p class="directional_title">Performance</p>
+                    <!-- <p class="directional_text">코드의 간결화로 언제 어디서든 웹 & 앱을 좀 더 빠르게 실행할 수 있도록 불필요한 코드를 줄이겠습니다.</p> -->
+                </li>
+            </ul>
+        </section>
+        <section id="about_wrap">
+            <div id="about_box">
+                <h2>About Me</h2>
+                <ul id="about_inner">
+                    <li>이름: 신윤성</li>
+                    <li>생년월일: 1996년 01월 01일</li>
+                    <li>대학전공: 건축기계설비과</li>
+                    <li>연락처: 010-9445-3383</li>
+                </ul>
+            </div>
+            <section id="about_skills">
+                <h2>SKILLLS</h2>
+                <ul id="skills_inner">
+                    <li>
+                        <p class="skills_step">step <span class="skills_num">01</span></p>
+                        <p class="skills_title">HTML<span style="font-family:Noto Sans KR">5</span> / CSS<span
+                                style="font-family:Noto Sans KR">3</span></p>
+                        <ul class="skills_inner">
+                            <li>HTML과 CSS의 이해</li>
+                            <li>크로스 브라우징에 대한 이해</li>
+                            <li>반응형 웹페이지 설계</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p class="skills_step">step <span class="skills_num">02</span></p>
+                        <p class="skills_title">Accessibility</p>
+                        <ul class="skills_inner">
+                            <li>웹 접근성에 대한 이해</li>
+                            <li>사용목적에 따른 적절한 태그 사용</li>
+                            <li>사용목적에 맞는 UI/UX 설계</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p class="skills_step">step <span class="skills_num">03</span></p>
+                        <p class="skills_title">PotoShop / Figma</p>
+                        <ul class="skills_inner">
+                            <li>포토샵과 피그마 사용에 대한 이해</li>
+                            <li>간단한 편집 작업</li>
+                            <li>피그마로 협업하여 웹페이지 시안 작업</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p class="skills_step">step <span class="skills_num">04</span></p>
+                        <p class="skills_title">JavaScript</p>
+                        <ul class="skills_inner">
+                            <li>JavaScript 언어를 사용해 nav의 2deps 구현</li>
+                            <li>슬라이드 모션 등 홈페이지 내 동적인 기능과 활성화</li>
+                            <li>비활성화 상태 적용 적응형 웹페이지 구현</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p class="skills_step">step <span class="skills_num">05</span></p>
+                        <p class="skills_title">React</p>
+                        <ul class="skills_inner">
+                            <li>React components 및 SPA / CSR에 대한 이해</li>
+                            <li>useState, useEffect등 React Hook 학습</li>
+                            <li>React 웹페이지 구현</li>
+                        </ul>
+                    </li>
+                    <!-- <li>
+                        <p class="skills_step">step <span class="skills_num">06</span></p>
+                        <p class="skills_title">HTML5 / CSS3</p>
+                        <ul class="skills_inner">
+                            <li>HTML과 CSS의 전반적인 이해와 사용목적에 따른 적절한 태그 사용</li>
+                            <li>크로스 브라우징에 대한 이해</li>
+                            <li>반응형 웹페이지 설계</li>
+                        </ul>
+                    </li> -->
+                </ul>
+            </section>
+        </section>
+        <section id="project_wrap">
+            <h2>Project</h2>
+            <ul id="project_inner">
+                <li>
+                    <div class="project_text_wrap">
+                        <span class="project_icon"><img src="/images/js_icon.png"></span>
+                        <p class="project_title">Episode 1</p>
+                        <p class="pc_mobile"><span class="selected_ui">pc</span><span class="text_slash"> / </span>
+                            <span>Mobile</span>
+                        </p>
+                        <p class="project_text">반응형</p>
+                    </div>
+                    <div class="project_img_wrap">
+                        <a href="https://cabinet01.netlify.app/" target="_blank" title="프로젝트바로가기">
+                            <img src="/images/project_frame00.png" alt="작업물">
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="project_text_wrap">
+                        <span class="project_icon"><img src="/images/js_icon.png"></span>
+                        <p class="project_title">Episode 2</p>
+                        <p class="pc_mobile"><span>pc</span><span class="text_slash"> / </span>
+                            <span class="selected_ui">Mobile</span>
+                        <p class="project_text">반응형</p>
+                        </p>
+                    </div>
+                    <div class="project_img_wrap">
+                        <p class="project_frame">
+                            <a href="https://cabinet01.netlify.app/" target="_blank" title="프로젝트바로가기">
+                                <img src="/images/project_frame01.png" alt="작업물">
+                            </a>
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="project_text_wrap">
+                        <span class="project_icon"><img src="/images/js_icon.png"></span>
+                        <p class="project_title">Episode 3</p>
+                        <p class="pc_mobile"><span class="selected_ui">pc</span><span class="text_slash"> / </span>
+                            <span>Mobile</span>
+                        <p class="project_text">팀프로젝트</p>
+
+                        </p>
+                    </div>
+                    <div class="project_img_wrap">
+                        <a href="https://teamitalia.netlify.app/" target="_blank" title="프로젝트바로가기">
+                            <img src="/images/project_frame02.png" alt="작업물">
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="project_text_wrap">
+                        <span class="project_icon"><img src="/images/react_icon.png"></span>
+                        <p class="project_title">Episode 4</p>
+                        <p class="pc_mobile"><span class="selected_ui">pc</span><span class="text_slash"> / </span>
+                            <span>Mobile</span>
+                        <p class="project_text">적응형</p>
+                        </p>
+                    </div>
+                    <div class="project_img_wrap">
+                        <p class="project_frame">
+                            <a href="https://cabinet02.netlify.app/" target="_blank" title="프로젝트바로가기">
+                                <img src="/images/project_frame03.png" alt="작업물">
+                            </a>
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="project_text_wrap">
+                        <span class="project_icon"><img src="/images/react_icon.png"></span>
+                        <p class="project_title">Episode 5</p>
+                        <p class="pc_mobile"><span>pc</span><span class="text_slash"> / </span>
+                            <span class="selected_ui">Mobile</span>
+                        <p class="project_text">적응형</p>
+                    </div>
+                    <div class="project_img_wrap">
+                        <p class="project_frame">
+                            <a href="https://cabinet02-mobile.netlify.app/" target="_blank" title="프로젝트바로가기">
+                                <img src="/images/project_frame04.png" alt="작업물">
+                            </a>
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </div>
+    <div id="footer_wrap">
+        <footer>END.</footer>
+    </div>
+
+
+
+</body>
+
+</html>
